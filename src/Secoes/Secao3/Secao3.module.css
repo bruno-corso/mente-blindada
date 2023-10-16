@@ -1,0 +1,25 @@
+.secao{
+    background-color: var(--preto2);
+    color: var(--creme);
+    min-height: 600px;
+    padding-top: 2rem; 
+}
+
+.conteudo{
+    display: flex;
+    
+}
+
+.conteudo > * {
+    flex: 1;
+}
+
+@media (max-width: 1024px) {
+
+    .conteudo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}

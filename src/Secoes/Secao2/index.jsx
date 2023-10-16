@@ -56,7 +56,7 @@ const Secao2 = () => {
                     backgroundColor: 'var(--vermelho)',
                     margin: '10px 0 0 0'
                 }}>
-                    Agende um consulta!
+                    Agende uma consulta!
                 </Botao>
         </div>
     );

@@ -2,6 +2,7 @@
     background-color: var(--preto);
     color: var(--creme);
     text-align: center;
+    min-height: 600px;
     padding: 2rem 0rem;   
 }
 
@@ -79,6 +80,7 @@
         font-weight: 300;
         color: var(--laranja);
         margin-bottom: 3rem;
+        padding: 0 1rem;
     }
 
     .secao ul {
