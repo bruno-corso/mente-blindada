@@ -1,0 +1,65 @@
+.secao h3 {
+    color: var(--laranja);
+    text-shadow: black 5px 5px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-family: var(--fonte-secundaria);
+    margin: 0;
+    font-weight: 500;
+}
+
+.secao {
+    background-color: var(--preto);
+    color: var(--creme);
+    text-align: center;
+    min-height: 600px;
+    padding: 2rem 0rem;   
+}
+
+.topico {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem;
+    padding: 1rem;
+    border: solid 2px var(--creme);
+    border-radius: 50px 10px 10px 10px;
+    transition: 0.25s;
+}
+
+.topico:hover {
+    scale: 1.01;
+    opacity: 80%;
+    background-color: var(--preto2);
+    cursor: pointer;
+}
+
+.topico p {
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.detalhe1 {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    gap: 2rem;
+    justify-content: space-around;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+}
+
+.detalhe1 * {
+    width: 450px;
+    text-align: justify;
+    line-height: 1.75rem;
+    font-size: 1.15rem;
+    border-radius: 10px;
+}
+
+.detalhe1 img {
+    box-shadow: 2px 2px 6px #333;
+}
+

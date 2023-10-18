@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5ad1784a.css",
+    "main.js": "/static/js/main.e9b6729b.js",
+    "static/media/back_secao1_mobile.jpg": "/static/media/back_secao1_mobile.cf5c40cbc028040503e2.jpg",
+    "static/media/back_secao1.jpg": "/static/media/back_secao1.3a219c413c06bdddf1ac.jpg",
+    "static/media/secao2_02.jpg": "/static/media/secao2_02.229fdbbe54db4c89459e.jpg",
+    "static/media/secao2_01.jpg": "/static/media/secao2_01.02691a0011fdd0a8c874.jpg",
+    "static/media/secao2_03.jpg": "/static/media/secao2_03.b6f2e1dd957ee19e88d5.jpg",
+    "static/media/secao2_04.jpg": "/static/media/secao2_04.b395b30784d7cc3db979.jpg",
+    "index.html": "/index.html",
+    "main.5ad1784a.css.map": "/static/css/main.5ad1784a.css.map",
+    "main.e9b6729b.js.map": "/static/js/main.e9b6729b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ad1784a.css",
+    "static/js/main.e9b6729b.js"
+  ]
+}
