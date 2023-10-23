@@ -61,6 +61,14 @@ const Secao4 = () => {
                 <p>Superar dificuldades pessoais e profissionais</p>
                 <AiFillPlusCircle style={{ color: 'var(--laranja)' }} size={35} />
             </div>
+
+            <Botao styles={{
+                backgroundColor: 'var(--vermelho)',
+                margin: '5vh 0 0 0'
+            }}>
+                AGENDE UMA CONSULTA
+            </Botao>
+
         </div>
     )
 }

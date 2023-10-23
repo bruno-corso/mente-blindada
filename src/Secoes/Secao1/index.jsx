@@ -1,7 +1,7 @@
 import Botao from '../../componentes/Botao';
 import styles from './Secao1.module.css'
 
-const Secao1 = () => {
+const Secao1 = ({rolar}) => {
     return (
         <div className={styles.secao}>
             <div className={styles.conteudo}>
@@ -12,7 +12,10 @@ const Secao1 = () => {
                 </p>
             </div >
             <div className={styles.botao}>
-                <Botao styles={{
+                <Botao
+                acao={rolar}
+                clique={'rolagem'}
+                styles={{
                     backgroundColor: 'var(--vermelho)',
                     margin: '10px 0 0 0'
                 }}>
