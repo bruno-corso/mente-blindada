@@ -91,6 +91,7 @@
     font-size: 1.25rem;
     line-height: 1.75rem;
     margin: 0 5%;
+    animation: fadeIn 2s 0s forwards;
 }
 
 .detalhe2 p {
