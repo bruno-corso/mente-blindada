@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styles from './Secao4.module.css'
 import { AiFillPlusCircle } from 'react-icons/ai'
 import iceberg from './imgs/iceberg.jpg'
+import tabela1 from './imgs/tabela1.png'
 
 const Secao4 = () => {
 
@@ -17,17 +18,28 @@ const Secao4 = () => {
                 <AiFillPlusCircle style={{ color: 'var(--laranja)' }} size={35} />
             </div>
             {
-                 benef1?   
-                <div className={styles.detalhe1}>
-                    <p>A maioria dos tratamentos terapêuticos são realizados através da mente consciente, que representa apenas 5% da mente.  A hipnoterapia permite acessarmos a mente subconsciente, que representa os outros 95% da mente. Atuar a nível subconsciente, identificar as causas raízes de transtornos que podem estar reprimidas e trabalha-las resulta em uma transformação significativamente mais rápida.</p>
-                    <img src={iceberg} alt="Foto Iceberg explciando o que fica na superficie e o que fica nas profundezas" />
-                </div>
-                :null
+                benef1 ?
+                    <div className={`${styles.detalhe1} ${benef1 ? styles.aparecendo : ''}`} >
+                        <p>A maioria dos tratamentos terapêuticos são realizados através da mente consciente, que representa apenas 5% da mente.  A hipnoterapia permite acessarmos a mente subconsciente, que representa os outros 95% da mente. Atuar a nível subconsciente, identificar as causas raízes de transtornos que podem estar reprimidas e trabalha-las resulta em uma transformação significativamente mais rápida.</p>
+                        <img src={iceberg} alt="Foto Iceberg explciando o que fica na superficie e o que fica nas profundezas" />
+                        <img src={tabela1} alt="tabela com comparação entre tipos de tratamento" />
+                        <p>O Dr. Alfred Barrios, PhD em Psicologia Clínica pela Universidade da Califórnia, em seu artigo científico “Hipnoterapia” revela o resultado da sua pesquisa cientifica que comparava os resultados observados entre a Psicanálise, Terapia Cognitivo-Comportamental e Hipnoterapia:</p>
+                        <p className={styles.italico}>“Descobrimos que para a Psicanálise podemos esperar uma taxa de recuperação de 38% após aproximadamente 600 sessões. Para Terapia Comportamental, podemos esperar recuperação de 72% após média de 22 sessões. Para a Hipnose Clínica, podemos esperar uma taxa de recuperação de 93% após uma média de 6 sessões.”</p>
+                        <h4>A nossa metodologia tem apresentado resultados na 1° sessão e recuperação em 3 sessões, em média.</h4>
+                    </div>
+                    : null
             }
-            <div className={styles.topico}>
+            <div className={styles.topico} onClick={() => setBenef2(!benef2)}>
                 <p>Aumenta a possibilidade de  ter alta de remédios psiquiátricos</p>
                 <AiFillPlusCircle style={{ color: 'var(--laranja)' }} size={35} />
             </div>
+            {
+                benef2 ?
+                    <div className={styles.detalhe2}>
+                        
+                    </div>
+                    : null
+            }
             <div className={styles.topico}>
                 <p>Superar dificuldades pessoais e profissionais</p>
                 <AiFillPlusCircle style={{ color: 'var(--laranja)' }} size={35} />
