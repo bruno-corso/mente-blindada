@@ -6,7 +6,7 @@ const Secao3 = ({ }) => {
         <div className={styles.secao}>
             <div className={styles.conteudo}>
                 <Textbox
-                    texto={"A hipnoterapia utiliza a hipnose (estado alterado da mente) como ferramenta para auxiliar o tratamento de transtornos mentais, emocionais e comportamentais e potencializar o indivíduo para alcançar seus resultados almejados.<br/><br/> Estes transtornos podem ter como origem eventos que causaram mal estar e ficaram mal resolvidos no subconsciente, ou seja, o paciente pode ou não se lembrar."}
+                    texto={"A hipnoterapia utiliza a hipnose (estado alterado da mente) como ferramenta para auxiliar o tratamento de transtornos mentais, emocionais e comportamentais e potencializar o indivíduo para alcançar seus sonhos.<br/><br/> Estes desequilíbrios podem ter como origem eventos que causaram mal estar e ficaram mal resolvidos no subconsciente, ou seja, o paciente pode ou não se lembrar."}
                     titulo={"O que é a hipnoterapia?"}
                     corTexto={"var(--creme)"}
                     corTitulo={"var(--laranja)"}

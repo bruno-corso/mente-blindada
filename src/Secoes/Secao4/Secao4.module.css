@@ -83,8 +83,7 @@
 
 .detalhe1 h4 {
     font-size: 2rem;
-    color: var(--creme);
-    text-shadow: 2px 2px 1px var(--laranja);
+    color: var(--laranja);
 }
 
 .detalhe2 {

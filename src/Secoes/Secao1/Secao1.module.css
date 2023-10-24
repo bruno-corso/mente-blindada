@@ -23,7 +23,7 @@
 .titlo_grande {
     color: var(--laranja);
     text-shadow: black 5px 5px;
-    font-size: 100px;
+    font-size: 78px;
     letter-spacing: 2px;
     font-family: var(--fonte-secundaria);
     margin: 0;

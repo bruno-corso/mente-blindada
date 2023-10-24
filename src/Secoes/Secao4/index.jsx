@@ -25,15 +25,15 @@ const Secao4 = () => {
                     <div className={`${styles.detalhe1} ${benef1 ? styles.aparecendo : ''}`} >
                         <p>A maioria dos tratamentos terapêuticos são realizados através da mente consciente, que representa apenas 5% da mente.  A hipnoterapia permite acessarmos a mente subconsciente, que representa os outros 95% da mente. Atuar a nível subconsciente, identificar as causas raízes de transtornos que podem estar reprimidas e trabalha-las resulta em uma transformação significativamente mais rápida.</p>
                         <img src={iceberg} alt="Foto Iceberg explciando o que fica na superficie e o que fica nas profundezas" />
-                        <img src={tabela1} alt="tabela com comparação entre tipos de tratamento" />
                         <p>O Dr. Alfred Barrios, PhD em Psicologia Clínica pela Universidade da Califórnia, em seu artigo científico “Hipnoterapia” revela o resultado da sua pesquisa cientifica que comparava os resultados observados entre a Psicanálise, Terapia Cognitivo-Comportamental e Hipnoterapia:</p>
+                        <img src={tabela1} alt="tabela com comparação entre tipos de tratamento" />
                         <p className={styles.italico}>“Descobrimos que para a Psicanálise podemos esperar uma taxa de recuperação de 38% após aproximadamente 600 sessões. Para Terapia Comportamental, podemos esperar recuperação de 72% após média de 22 sessões. Para a Hipnose Clínica, podemos esperar uma taxa de recuperação de 93% após uma média de 6 sessões.”</p>
                         <h4>A nossa metodologia tem apresentado resultados na 1° sessão e recuperação em 3 sessões, em média.</h4>
                         <Botao styles={{
                             backgroundColor: 'var(--vermelho)',
                             margin: '10px 0 0 0'
                         }}>
-                            AGENDE UMA CONSULTA
+                            AGENDE UMA AVALIAÇÃO
                         </Botao>
                     </div>
                     : null
@@ -45,7 +45,7 @@ const Secao4 = () => {
             {
                 benef2 ?
                     <div className={styles.detalhe2}>
-                        <p>Os remédios atuam nos sintomas e não tratam a causa dos transtornos, podendo levar o indivíduo à:</p>
+                        <p>Os remédios atuam nos sintomas e não tratam a causa dos transtornos, podendo levar à:</p>
                         <ul>
                             <li>Dependência Química</li>
                             <li>Aumento de Dosagem</li>
@@ -59,14 +59,14 @@ const Secao4 = () => {
                     : null
             }
             <div className={styles.topico} onClick={() => setBenef3(!benef3)}>
-                <p>Superar dificuldades pessoais e profissionais</p>
+                <p>Superar desafios pessoais e profissionais</p>
                 <AiFillPlusCircle style={{ color: 'var(--laranja)' }} size={35} />
             </div>
             {
                 benef3 ?
                     <div className={styles.detalhe3}>
                         <p>
-                            Demonstramos possíveis causas raízes de algumas dificuldades pessoais e profissionais.
+                            As dificuldades profissionais e pessoais podem atrapalhar ou impedir, inconscientemente, de alcançar seus objetivos. Veja algumas causas das dificuldades:
                         </p>
                         <img src={tabela3} alt="tabela mostrando questões e possíveis traumas tratáveis" />
                     </div>
@@ -76,7 +76,7 @@ const Secao4 = () => {
                 backgroundColor: 'var(--vermelho)',
                 margin: '5vh 0 0 0'
             }}>
-                AGENDE UMA CONSULTA
+                AGENDE UMA AVALIAÇÃO
             </Botao>
 
         </div>

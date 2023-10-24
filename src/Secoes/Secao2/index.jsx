@@ -10,17 +10,17 @@ import { TfiThought } from 'react-icons/tfi';
 const Secao2 = () => {
     return (
         <div className={styles.secao}>
-            <h2 className={styles.titulo}>A Hipnoterapia serve para:</h2>
+            <h2 className={styles.titulo}>A Hipnoterapia é excelente para:</h2>
             <div className={styles.conteudo}>
                 <Card
                     alter={"Imagem pessoa sorrindo"}
                     imagem={img1}
-                    textinho={"Complementar tratamentos de transtornos mentais"}
+                    textinho={"Complementar tratamentos de desequilíbrios mentais"}
                 />
                 <Card
                     alter={"Imagem pessoa feliz"}
                     imagem={img2}
-                    textinho={"Tratar emoções e comportamentos negativos"}
+                    textinho={"Tratar desequilíbrios emocionais e comportamentais"}
                 />
                 <Card
                     alter={"Imagem pessoa realizada"}
@@ -30,7 +30,7 @@ const Secao2 = () => {
                 <Card
                     alter={"Imagem pessoa satisfeita"}
                     imagem={img4}
-                    textinho={"Superar dificuldades pessoais e profissionais"}
+                    textinho={"Superar desafios pessoais e profissionais"}
                 />
             </div>
             <p className={styles.texto}>A técnica consiste em identificar e ressignificar as causas de:</p>
@@ -56,7 +56,7 @@ const Secao2 = () => {
                     backgroundColor: 'var(--vermelho)',
                     margin: '10px 0 0 0'
                 }}>
-                    AGENDE UMA CONSULTA
+                    AGENDE UMA AVALIAÇÃO
                 </Botao>
         </div>
     );
