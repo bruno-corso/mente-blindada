@@ -1,9 +1,10 @@
-import { useState } from 'react';
 import styles from './Secao4.module.css'
+import { useState } from 'react';
 import { AiFillPlusCircle } from 'react-icons/ai'
 import iceberg from './imgs/iceberg.jpg'
 import tabela1 from './imgs/tabela1.png'
 import tabela2 from './imgs/tabela2.PNG'
+import tabela3 from './imgs/tabela3.PNG'
 import Botao from '../../componentes/Botao';
 
 const Secao4 = () => {
@@ -57,11 +58,20 @@ const Secao4 = () => {
                     </div>
                     : null
             }
-            <div className={styles.topico}>
+            <div className={styles.topico} onClick={() => setBenef3(!benef3)}>
                 <p>Superar dificuldades pessoais e profissionais</p>
                 <AiFillPlusCircle style={{ color: 'var(--laranja)' }} size={35} />
             </div>
-
+            {
+                benef3 ?
+                    <div className={styles.detalhe3}>
+                        <p>
+                            Demonstramos possíveis causas raízes de algumas dificuldades pessoais e profissionais.
+                        </p>
+                        <img src={tabela3} alt="tabela mostrando questões e possíveis traumas tratáveis" />
+                    </div>
+                    : null
+            }
             <Botao styles={{
                 backgroundColor: 'var(--vermelho)',
                 margin: '5vh 0 0 0'
