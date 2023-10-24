@@ -66,7 +66,7 @@ const Secao4 = () => {
                 benef3 ?
                     <div className={styles.detalhe3}>
                         <p>
-                            As dificuldades profissionais e pessoais podem atrapalhar ou impedir, inconscientemente, de alcançar seus objetivos. Veja algumas causas das dificuldades:
+                            As dificuldades profissionais e pessoais podem atrapalhar ou impedir, inconscientemente de alcançar seus objetivos. Veja algumas causas das dificuldades:
                         </p>
                         <img src={tabela3} alt="tabela mostrando questões e possíveis traumas tratáveis" />
                     </div>
