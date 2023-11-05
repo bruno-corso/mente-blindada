@@ -37,7 +37,7 @@ const Secao2 = () => {
             <ul>
                 <li key={"1.2"}>
                     <TfiThought className={styles.icon} size={30} />
-                    Depressão, ansiedade, síndrome do pânico ou bernaut, traumas, bipolaridade.
+                    Depressão, ansiedade, síndrome do pânico ou burnout, traumas, bipolaridade.
                 </li>
                 <li key={"2.2"}>
                     <TfiThought className={styles.icon} size={30} />
