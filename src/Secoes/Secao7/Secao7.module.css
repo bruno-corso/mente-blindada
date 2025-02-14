@@ -1,5 +1,4 @@
 .secao {
-
     color: var(--creme);
     height: 100vh;
     min-height: 900px;
@@ -31,12 +30,25 @@
     flex: 1;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 747px) {
 
-    .conteudo {
+    .secao {
         flex-direction: column;
         align-items: center;
+        height: 100%;
     }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .imagem {
+        width: 80%;
+        max-width: 350px;
+        padding-left: 0;
+    }
+
+
 
 
 }

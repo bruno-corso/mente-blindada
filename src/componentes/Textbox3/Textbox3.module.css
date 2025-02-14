@@ -42,3 +42,29 @@
     }
 }
 
+
+@media (max-width: 747px) {
+
+    .textbox3 {
+        min-height: 0;
+        height: 100%;
+
+        .cardzao {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+        }
+    }
+
+
+
+
+
+
+}

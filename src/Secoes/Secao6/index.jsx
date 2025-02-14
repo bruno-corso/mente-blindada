@@ -1,8 +1,5 @@
-import Botao from "../../componentes/Botao";
-import Card from "../../componentes/Card";
 import Textbox2 from "../../componentes/Textbox2";
 import styles from "./Secao6.module.css";
-import { TfiThought } from "react-icons/tfi";
 
 const Secao6 = () => {
   return (

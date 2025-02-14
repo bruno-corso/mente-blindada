@@ -24,3 +24,18 @@
     text-align: center;
     text-shadow: black 2px 2px;
 }
+
+@media (max-width: 424px) {
+    .textbox {
+        max-width: 700px;
+        font-size: 14px;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 10px 50px;
+        /* border: solid var(--branco) 2px */
+        font-family: var(--fonte-secundaria);
+        letter-spacing: 1px;
+    }
+
+
+}

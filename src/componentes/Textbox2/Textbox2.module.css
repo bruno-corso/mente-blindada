@@ -37,3 +37,13 @@
     }
 }
 
+@media (max-width: 1024px) {
+
+    ul {
+        padding-left: 1rem;
+    }
+
+
+
+}
+

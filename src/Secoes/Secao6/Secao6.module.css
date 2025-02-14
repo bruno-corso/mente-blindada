@@ -1,4 +1,4 @@
-.secao{
+.secao {
     background-color: var(--preto);
     color: var(--creme);
     text-align: center;
@@ -11,8 +11,8 @@
 .conteudo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     color: var(--creme);
     text-align: center;
     padding: 4rem 0rem;
@@ -52,8 +52,13 @@
 
 @media (max-width: 744px) {
 
-    .conteudo{
+    .secao {
+        height: 100%;
+    }
+
+    .conteudo {
         flex-direction: column;
+        padding: 1rem 0rem;
     }
 
     .titulo {
@@ -69,19 +74,5 @@
         padding: 0 1rem;
     }
 
-    .secao ul {
-        list-style: none;
-        padding: 0;
-        margin-left: 2rem;
-    }
-
-    .secao li {
-        margin-bottom: 2rem;
-        line-height: normal;
-        text-align: left;
-        transition: 0.2s;
-        display: block;
-        width: 100%;
-    }
 
 }

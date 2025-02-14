@@ -52,38 +52,19 @@
     margin-right: 0.7rem;
 }
 
-@media (max-width: 744px) {
+@media (max-width: 747px) {
+
+    .secao{
+        height: 100%;
+    }
 
     .conteudo{
         flex-direction: column;
+        align-items: stretch;
     }
 
     .titulo {
         font-size: 32px;
-    }
-
-    .texto {
-        font-style: italic;
-        font-size: 24px;
-        font-weight: 300;
-        color: var(--laranja);
-        margin-bottom: 3rem;
-        padding: 0 1rem;
-    }
-
-    .secao ul {
-        list-style: none;
-        padding: 0;
-        margin-left: 2rem;
-    }
-
-    .secao li {
-        margin-bottom: 2rem;
-        line-height: normal;
-        text-align: left;
-        transition: 0.2s;
-        display: block;
-        width: 100%;
     }
 
 }

@@ -63,11 +63,15 @@
     }
 
     .texto {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .secao {
         height: 100vh;
+    }
+
+    .subtitulo { 
+        font-size: 16px;
     }
 
 }
