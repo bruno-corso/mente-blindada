@@ -1,6 +1,6 @@
 import ReactWhatsapp from 'react-whatsapp';
 import style from './Botao.module.css'
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+// import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 const Botao = ({ children, styles, clique, acao }) => {
 
