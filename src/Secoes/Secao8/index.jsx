@@ -27,8 +27,8 @@ const Secao8 = () => {
             "1 retorno hipnoterapeutico no prazo de 6 meses.",
             "1 ano de acesso ao Clube Mentes Brilhantes.",
           ]}
-          parcela={"R$ 250,00"}
-          total={"R$ 2.900,00"}
+          parcela={"R$ 350,00"}
+          total={"R$ 3.500,00"}
         />
         <Textbox3
           corTexto={"var(--branco)"}

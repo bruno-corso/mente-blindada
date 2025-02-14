@@ -19,6 +19,7 @@ const Secao6 = () => {
             "Possibilidade de reduzir ou eliminar medicamentos psiquiátricos.",
             "6 meses de suporte emocional para enfrentar desafios com inteligência e preservar sua reputação.",
           ]}
+          link={"Saber mais"}
         />
         <Textbox2
           corTexto={"var(--branco)"}
