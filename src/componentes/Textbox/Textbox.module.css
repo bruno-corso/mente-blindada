@@ -1,21 +1,26 @@
-.textbox{
+.textbox {
     max-width: 700px;
+    font-size: 16px;
     margin: 2rem;
     padding: 2rem;
     border-radius: 10px 50px;
-    border: solid var(--creme) 4px
+    /* border: solid var(--branco) 2px */
+    font-family: var(--fonte-secundaria);
+    letter-spacing: 1px;
 }
 
 .textbox article {
-    color: var(--creme);
-    line-height: 2rem;
-    text-align: ;
+    color: var(--branco);
+    line-height: 1.75rem;
+    text-align: center;
 }
 
 .textbox h3 {
     margin: 0 0 2rem 0;
-    color: var(--creme);
+    color: var(--branco);
     font-weight: 700;
     font-size: 2rem;
     padding: 0;
+    text-align: center;
+    text-shadow: black 2px 2px;
 }

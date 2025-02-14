@@ -1,0 +1,89 @@
+.secao{
+    background-color: var(--preto);
+    color: var(--creme);
+    text-align: center;
+    min-height: 600px;
+    padding: 2rem 0rem;
+    height: 100vh;
+    /* min-height: 900px; */
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    color: var(--creme);
+    text-align: center;
+    padding: 4rem 0rem;
+    gap: 1.5rem;
+    /* flex-wrap: wrap; */
+}
+
+.titulo {
+    color: var(--laranja);
+    text-shadow: black 5px 5px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-family: var(--fonte-secundaria);
+    margin: 0;
+    font-weight: 500;
+}
+
+.texto {
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--laranja);
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+
+.icon {
+    color: var(--creme);
+    vertical-align: middle;
+    margin-right: 0.7rem;
+}
+
+@media (max-width: 744px) {
+
+    .conteudo{
+        flex-direction: column;
+    }
+
+    .titulo {
+        font-size: 32px;
+    }
+
+    .texto {
+        font-style: italic;
+        font-size: 24px;
+        font-weight: 300;
+        color: var(--laranja);
+        margin-bottom: 3rem;
+        padding: 0 1rem;
+    }
+
+    .secao ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 2rem;
+    }
+
+    .secao li {
+        margin-bottom: 2rem;
+        line-height: normal;
+        text-align: left;
+        transition: 0.2s;
+        display: block;
+        width: 100%;
+    }
+
+}

@@ -3,7 +3,11 @@ body {
   font-family: var(--fonte-primaria);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  /* background-color: black; */
+  background: rgb(68, 68, 68);
+  background: linear-gradient(30deg, rgba(68, 68, 68, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 code {
@@ -12,13 +16,13 @@ code {
 }
 
 :root {
-  --preto: #13131a;
-  --preto2: #1a1a23;
+  --preto: #121212;
+  --preto2: #222222;
   --vermelho: #BB0029;
   --vermelho2: #83001c;
   --laranja: #F5841A;
   --creme: #F2E8C6;
-  --branco: #fff;
+  --branco: #F2E8C6;
   --fonte-primaria: 'Montserrat', sans-serif;
   --fonte-secundaria: 'Playfair Display', serif;
 }

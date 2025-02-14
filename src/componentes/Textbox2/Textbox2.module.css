@@ -1,0 +1,39 @@
+.textbox2 {
+    max-width: 700px;
+    font-size: 16px;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px 50px;
+    border: solid var(--branco) 1px;
+    font-family: var(--fonte-secundaria);
+    letter-spacing: 1px;
+
+    article {
+        color: var(--branco);
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+
+    h3 {
+        margin: 0 0 2rem 0;
+        color: var(--branco);
+        font-weight: 700;
+        font-size: 1.75rem;
+        padding: 0;
+        text-align: center;
+        text-shadow: black 2px 2px;
+    }
+
+    ul {
+        list-style: square;
+        margin-left: 0;
+        text-align: left;
+
+    }
+
+    li {
+        color: var(--branco);
+        padding-bottom: 1rem;
+    }
+}
+
