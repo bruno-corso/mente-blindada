@@ -13,9 +13,8 @@ const Secao9 = () => {
       <div className={styles.botao}>
         <Botao
           styles={{
-            backgroundColor: "var(--laranja)",
+            backgroundColor: "var(--vermelho)",
             margin: "1px 0 0 0",
-            color: "var(--preto)",
           }}
         >
           Agendar Avaliação

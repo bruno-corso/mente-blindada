@@ -13,7 +13,7 @@ const Secao1 = ({ rolar }) => {
                     acao={rolar}
                     clique={'rolagem'}
                     styles={{
-                        backgroundColor: 'var(--preto2)',
+                        backgroundColor: 'var(--vermelho)',
                         margin: '1px 0 0 0'
                     }}>
                     Saiba Mais
